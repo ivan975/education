@@ -6,3 +6,9 @@
 .card-text-color {
   color: #289bde;
 }
+.bg-color {
+  background-color: #f4fafd;
+}
+.btn-color {
+  background-color: #289bde !important;
+}
