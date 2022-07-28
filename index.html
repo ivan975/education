@@ -305,59 +305,107 @@
             </div>
         </section>
         <!-- join option ends -->
-        <!-- student parts starts -->
+
+        <!-- FAQ part starts -->
         <section class="container mt-5">
-            <div>
-                <h2 class="fw-semibold">Here are our successful students</h2>
-                <p class="text-muted">It is a long established fact that a reader will be distracted by the readable
-                    content of a page when
-                    looking at its layout.</p>
+            <div class="d-flex justify-content-center">
+                <div>
+                    <h2 class="fw-semibold">Frequently Asked Questions</h2>
+                    <p>It is a long established fact that a reader will be distracted by the readable <br> content of a
+                        page
+                        when looking at its layout.</p>
+                </div>
             </div>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                                content.</p>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button fw-bold bg-muted" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            What are the differences between grid and flexbox?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            The most important thing to know is that flexbox is one-dimensional, while CSS Grid is
+                            two-dimensional. Flexbox lays out items along either the horizontal or the vertical axis, so
+                            you have to decide whether you want a row-based or a column-based layout.A flex layout can
+                            also wrap in multiple rows or columns and flexbox treats each row or column as a separate
+                            entity, based on its content and the available space.On the other hand, CSS Grid lets you
+                            work along two axes: horizontally and vertically. Grid allows you to create two-dimensional
+                            layouts where you can place grid items into
+                            cells defined by rows and columns.
+                            <strong>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This card has even longer content than the first to show that equal
-                                height action.</p>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            What are the differences Bootstrap and tailwind?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body fw-normal">
+                            Bootstrap's utility and layout classes provide you with everything you need to style a
+                            responsive webpage. With Tailwind, however, you are much more involved in styling the
+                            webpage because you end up having to create your own components using the utility classes
+                            that the framework offers
                         </div>
-                        <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            What is CSS box model?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body fw-normal">
+                            In CSS, the term "box model" is used when talking about design and layout. The CSS box model
+                            is essentially a box that wraps around every HTML element. It consists of: margins, borders,
+                            padding, and the actual content.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button fw-bold bg-muted" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            What is a semantic tag?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body fw-normal">
+                            The HTML semantics refers to the tags that provide meaning to an HTML page rather than just
+                            presentation. It makes HTML more comprehensible by better defining the different sections
+                            and layout of web pages.
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- student part ends -->
+        <!-- FAQ part ends -->
+        <!-- companies starts -->
+        <section class="container mt-5 d-none d-lg-block size rounded">
+            <h2 class="fw-semibold text-center">Trusted by over 500+ companies</h2>
+            <div class="d-flex justify-content-around mt-4">
+                <img src="./images/company/company-1.png" alt="">
+                <img src="./images/company/company-2.png" alt="">
+                <img src="./images/company/company-3.png" alt="">
+                <img src="./images/company/company-4.png" alt="">
+                <img src="./images/company/company-5.png" alt="">
+                <img src="./images/company/company-6.png" alt="">
+            </div>
+        </section>
+        <!-- companies ends -->
     </main>
+    <!-- main part ends -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
